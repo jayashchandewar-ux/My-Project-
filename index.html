@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project1</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Jayesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://">Home</a></li>
+                    <li><a href="http://">About</a></li>
+                    <li><a href="http://">Services</a></li>
+                    <li><a href="http://">Projects</a></li>
+                    <li><a href="http://">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="First">
+            <h1>Hello, <span id="element" loops></span></h1>
+        </div>
+        <div class="hero">
+            <div class="leftSection First"> HTML | CSS |</div>
+            <div class="rightSection First">Responsive Design</div>
+        </div>
+        <div class="First"><button>View My Work</button></div>
+    </main>
+    <div class="skills">
+        <h5> My Skills </h5>
+        <div class="con">
+            <div class="box option"><img src="html.jpg" width="60px"> <a href="http://"> HTML </a></div>
+            <div class="box option"><img src="css.png" width="60px"> <a href="http://"> CSS </a></div>
+            <div class="box option"><img src="java.webp" width="60px"><a href="http://"> JavaScript </a></div>
+            <div class="box option"><img src="com.jpg" width="60px"><a href="http://"> Responsive Design </a></div>
+        </div>
+    </div>
+    <div class="myproject">
+        <h5>My Projects</h5>
+        <div class="container">
+            <div class="box1 option1"><img src="im.jpg" width="100px"> Project One </div>
+            <div class="box1 option1"><img src="im1.jpg" width="100px"> Project Two </div>
+            <div class="box1 option1"><img src="im2.jpg" width="100px"> Project Three </div>
+        </div>
+    </div>
+    <footer>
+        <div class="last">
+        <h2>Get In Touch</h2>
+        <div class="container1">
+            <div id="a">
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="b"><input type="text" placeholder="Email"></div>
+       
+        <div class="msg"><input type="text" placeholder="Message"></div>
+         </div>
+        <div><button>Send Message</button></div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I am Jayesh', 'Frontend Web Developer', 'I build Fast and Responsive Websites', '[Hire me]'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
